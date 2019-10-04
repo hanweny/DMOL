@@ -1,1 +1,2 @@
-# Bio_Class_Motivation
+# DMOL (Dynamic Motivation Online Learing)
+  - Based on online Bio Sci class student survey data
