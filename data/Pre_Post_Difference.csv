@@ -1,0 +1,77 @@
+Name Stem,Post - Pre,Item,Label,Response Values,Construct
+agqmap2,-0.18507462686567333,It is important for me to understand the content of this course as thoroughly as possible,want to understand the content thoroughly,"slider: 1=Not at all true of me, 7 = Very true of me",Achievement Goals (Mastery approach)
+agqmap1,-0.2582089552238811,I want to learn as much as possible in this class ,want to learn as much as possible,"slider: 1=Not at all true of me, 7 = Very true of me",Achievement Goals (Mastery approach)
+agqmap10,0.04811188811188849,I am often concerned that I may not learn all that there is to learn in this class,concerned haven't learned everything,"slider: 1=Not at all true of me, 7 = Very true of me",Achievement Goals (Mastery avoid)
+agqmap5,-0.06506105834464115,Sometimes I’m afraid that I may not understand the content of this class as thoroughly as I’d like,afraid may not understand everything,"slider: 1=Not at all true of me, 7 = Very true of me",Achievement Goals (Mastery avoid)
+agqmap6,-0.8888888888888902,It is important for me to do well compared to others in this class,important to do well compared to others,"slider: 1=Not at all true of me, 7 = Very true of me",Achievement Goals (Performance approach)
+agqmap17,0.01877858488028128,It’s important to me that others think I’m smart in class,important I look smart to others,"slider: 1=Not at all true of me, 7 = Very true of me",Achievement Goals (Performance approach)
+agqmap16,-0.4271825396825397,I don’t want to look like I’m not as smart as the other students,don't want to look less smart,"slider: 1=Not at all true of me, 7 = Very true of me",Achievement Goals (Performance avoid)
+agqmap3,-1.0447916666666663,It is important for me not to do worse than the other students,important not to do worse than others,"slider: 1=Not at all true of me, 7 = Very true of me",Achievement Goals (Performance avoid)
+agqmap7,0.02691090004522767,I just want to avoid doing poorly in this class,just want to avoid doing poorly,"slider: 1=Not at all true of me, 7 = Very true of me",Achievement Goals (Performance avoid)
+att1,-0.02424242424242351,"How important to you, personally, is it to be a person who understands the science behind cooking?",important to be a cooking science person,"slider: 1=Not at all important, 7 = Very important",Attainment Value
+att3,0.30815972222222054,How important to your identity is it to be knowledgeable about the science behind food and cooking?,important to my identity to know cooking science,"slider: 1=Not at all important, 7 = Very important",Attainment Value
+att2,0.18855769230769193,How important is it that others see you as knowledgeable about the science behind food and cooking?,important to be seen as cooking science person,"slider: 1=Not at all important, 7 = Very important",Attainment Value
+cost1,0.3236969001148111,How stressful will this class be?,class will be stressful,"slider: 1=Not at all stressful, 7 = Very stressful",Cost Value (Emotional)
+cost2,0.6907692307692312,How frustrating will this class be?,class will be frustrating,"slider: 1=Not at all frustrating, 7 = Very furstrating",Cost Value (Emotional)
+cost3,0.6189732142857136,How emotionally draining will this class be?,class will be emotionally draining,"slider: 1=Not at all draining, 7 = Very draining",Cost Value (Emotional)
+cost4,0.2032790592492102,How much do you have to sacrifice to do well in this course?,have to sacrifice a lot to do well,"slider: 1=Nothing, 7 = An incredible amount",Cost Value (Loss of Valued Alternatives)
+cost5,0.4390624999999999,How many other valued activities does this class require you to give up?,have to give up valued activities,"slider: 1=None, 7 = An incredible amount",Cost Value (Loss of Valued Alternatives)
+cost6,0.7492307692307691,How many opportunities will you be missing out on if you commit fully to this class?,missing opportunities by committing to class ,"slider: 1=None, 7 = An incredible amount",Cost Value (Loss of Valued Alternatives)
+cost9,-0.30597014925373145,How much effort will you have left for this class after taking care of more important activities?,effort left for class after other activities,"slider: 1=Not nearly enough, 7 = Enough",Cost Value (Outside Effort)
+cost8,-0.16865671641791025,How much time will you have for this class after taking care of more important activities?,time left for class after other activities,"slider: 1=Not nearly enough, 7 = Enough",Cost Value (Outside Effort)
+cost7,0.03107191316146629,How much will your other commitments get in the way of you putting forth effort in class?,other commitments get in way of class,"slider: 1=Not at all, 7 = Completely",Cost Value (Outside Effort)
+study,1.343283582089553,"On average, how many hours per week do you plan to spend on all aspects of this course?",hours spent per week?,1 to 40,Course Plan
+studydays,-0.31343283582089576,How many days of each week will you work on this course?,days per week you will work on course,1 to 7,Course Plan
+er1,0.0773809523809521,I often feel so lazy or bored when I study for this class that I quit before I finish what I planned to do,often feel lazy or bored studying,"slider: 1=Strongly disagree, 5=Strongly Agree",Effort Regulation
+er8x,-0.03982360922659467,,work until I finish,"slider: 1=Strongly disagree, 5=Strongly Agree",Effort Regulation
+er4,-0.07876456876456883,"Even when course materials are dull and uninteresting, I manage to keep working until I finish ",finish even when material is dull,"slider: 1=Strongly disagree, 5=Strongly Agree",Effort Regulation
+er2,-0.23964269561284457,I work hard even if I do not like what I am doing,work hard even if I don't like it,"slider: 1=Strongly disagree, 5=Strongly Agree",Effort Regulation
+er3,0.11450665017012085,"When coursework is difficult, I give up or only study the easy parts ",give up when coursework is difficult,"slider: 1=Strongly disagree, 5=Strongly Agree",Effort Regulation
+er7x,0.16879240162822295,I continue working even if there are better things to do,finish even if have better things to do,"slider: 1=Strongly disagree, 5=Strongly Agree",Effort Regulation
+wgrade,,What grade do you want to get in this course?,wanted grade,"13=A+, 12=A, 11=A-, 10=B+, 9=B, 8=B-, 7=C+, 6=C, 5=C-, 4=D+, 3=D, 2=D-, 1=F",Grade Expectations
+egrade,,What grade do you expect to get in this course?,expected grade,"13=A+, 12=A, 11=A-, 10=B+, 9=B, 8=B-, 7=C+, 6=C, 5=C-, 4=D+, 3=D, 2=D-, 1=F",Grade Expectations
+badgrade,,What is the worst grade you would still be satisfied with getting in this course?,worst grade still satisfactory,"13=A+, 12=A, 11=A-, 10=B+, 9=B, 8=B-, 7=C+, 6=C, 5=C-, 4=D+, 3=D, 2=D-, 1=F",Grade Expectations
+int1,0.26095571095571035,How often do you wonder about the science behind cooking?,wonder about science of cooking,"slider: 1 = Never, 7 = Very often",Interest Value
+int4,-0.23402985074626947,How much fun will learning about the biology and chemistry of cooking be?,fun learning science of cooking,"slider: 1=Not at all fun, 7 = Very fun",Interest Value
+int3,-0.35405281285878143,How interested are you in the science behind food and cooking?,interested in science of cooking,"slider: 1=Not at all interested, 7 = Very interested",Interest Value
+int2,-0.372714552238806,How curious are you to learn about the science behind cooking?,curious about science of cooking,"slider: 1=Not at all curious, 7 = Very curious",Interest Value
+iemot5,-0.4923076923076932,To prove my ability by getting a good grade,to prove my ability,"slider: 1=Not at all important, 7 = Very important",Internal/External Motivation
+iemot4,-0.1883916083916075,To improve my GPA by getting a good grade,to improve my GPA,"slider: 1=Not at all important, 7 = Very important",Internal/External Motivation
+iemot1,-0.22109905020352816,To enjoy the fun of learning about the science behind food and cooking,to enjoy fun of learning,"slider: 1=Not at all important, 7 = Very important",Internal/External Motivation
+iemot6,-0.2484848484848481,To avoid lowering my GPA by getting a bad grade,to avoid lowering my GPA,"slider: 1=Not at all important, 7 = Very important",Internal/External Motivation
+iemot3,-0.3542966983265483,To develop new knowledge about the science behind food and cooking,to develop new food science knowledge,"slider: 1=Not at all important, 7 = Very important",Internal/External Motivation
+iemot2,0.28666666666666707,To challenge myself academically,to challenge myself academically,"slider: 1=Not at all important, 7 = Very important",Internal/External Motivation
+iemot7,-0.9836309523809517,To avoid looking incompetent by getting a bad grade,to avoid looking incompetent,"slider: 1=Not at all important, 7 = Very important",Internal/External Motivation
+orsh2,0.1438941655359569,how often do you...ignore distractions around you when you study?,ignore distractions around me (study habits),"slider: 1=Never, 5=All the time",Online Self Regulation
+olsrl1,0.03935706084959811,stay on task when studying on your computer ,stay on task at computer,"slider: 1=Never, 7=All the time",Online Self Regulation
+orsh4,-0.2741067390321117,how often do you...keep a record of what your assignments are and when they are due?,keep record of assignments (study habits),"slider: 1=Never, 5=All the time",Online Self Regulation
+olsrl2,0.2641491841491854,get distracted when studying on your computer ,get distracted at computer,"slider: 1=Never, 7=All the time",Online Self Regulation
+olsrl4,0.04017094017094047,find yourself getting distracted by internet browsing ,get distracted by internet at computer,"slider: 1=Never, 7=All the time",Online Self Regulation
+orsh5,-0.1820895522388053,how often do you...plan your work in advance so that you can turn in your assignments on time?,plan work in advance (study habits),"slider: 1=Never, 5=All the time",Online Self Regulation
+orsh6,-0.00892773892773846,how often do you...make sure people around you will help you study and not try to distract you?,people around me help study (study habits),"slider: 1=Never, 5=All the time",Online Self Regulation
+orsh7,-0.5308294592610721,how often do you...use email and other online tools to ask your classmates and instructors questions?,willing to use email for help (study habits),"slider: 1=Never, 5=All the time",Online Self Regulation
+olsrl3,-0.0002816180235529764,find yourself getting distracted by social media while studying on your computer ,get distracted by social media at computer,"slider: 1=Never, 7=All the time",Online Self Regulation
+orsh1,-0.16635006784260487,how often do you...work in a place where you can read and work on assignments without distractions?,work where there are no distractions (study habits),"slider: 1=Never, 5=All the time",Online Self Regulation
+olsrl5,-0.004780783582090109,find yourself getting distracted by your phone while studying on your computer ,get distracted by phone at computer,"slider: 1=Never, 7=All the time",Online Self Regulation
+courserank,0.36465892597968086,Please drag and drop your responsibilities during this course in order from most important to least important ,importance rank of course responsibilities,1 to 16,Other Activities Rank
+oact1rank,-0.019607843137255276,Please drag and drop your responsibilities during this course in order from most important to least important ,importance rank of other activity 1,1 to 16,Other Activities Rank
+oact2hrs,0.8336734693877563,"On average, how many hours per week will you spend on each of these activities in the month of July?",hours per week on other activity 2,0 to 40,Other Activities Time
+oact1hrs,2.9714640198511155,"On average, how many hours per week will you spend on each of these activities in the month of July?",hours per week on other activity 1,0 to 40,Other Activities Time
+courses_imp,0.28364849833147954,"Compared to other courses you are currently taking, how important is this course?",importance compared to other courses,"4=Most important, 3=Second-most important, 2=Third-most important, 1=Fourth-most important",Other Courses
+courses,-1.297213622291022,How many other courses are you taking this summer?,number of other courses taking,"1=0, 2=1, 3=2, 4=3+",Other Courses
+courses_int,-0.08342602892102358,"Compared to other courses you are currently taking, how interesting is this course?",interest compared to other courses,"4=Most interesting, 3=Second-most interesting, 2=Third-most interesting, 1=Fourth-most interesting",Other Courses
+longitude,2.0628106395223966,longitude of location when completing survey,longitude of location when completing survey,decimal,Qualtrics Embedded Data
+latitude,0.5778517082089607,latitude of location when completing survey,latitude of location when completing survey,decimal,Qualtrics Embedded Data
+finished,0.0,whether student finished or not,whether student finished or not,"0=no, 1=yes",Qualtrics Embedded Data
+duration,4763.582089552238,time taken to finish survey (in seconds),time taken to finish survey (in seconds),integer,Qualtrics Embedded Data
+progress,0.0,percent of survey completed,percent of survey completed,0 to 100,Qualtrics Embedded Data
+se1,-0.03878335594753457,I’m certain I can master the skills taught in this course,can master skills in this course,"slider: 1=Not true at all, 5 = Very true",Self-Efficacy
+se2,-0.0029850746268662576,I'm certain I can figure out how to learn even the most difficult material in this course,can learn even hardest material,"slider: 1=Not true at all, 5 = Very true",Self-Efficacy
+se3,-0.22089552238806043,I can do almost all the work in this course if I don't give up,can do almost all work if I try,"slider: 1=Not true at all, 5 = Very true",Self-Efficacy
+se4,-0.02388059701492562,"Even if the work in this course is hard, I can learn it","if work is hard, can still learn it","slider: 1=Not true at all, 5 = Very true",Self-Efficacy
+se5,-0.10298507462686679,I can do even the hardest work in this course if I try,can do hardest work if I try,"slider: 1=Not true at all, 5 = Very true",Self-Efficacy
+util3,-0.03729047072330616,How applicable in everyday life is knowledge of biology and chemistry of cooking?,course applicable in everyday life,"slider: 1=Not at all applicable, 7 = Very applicable",Utility Value
+util4,-0.7552927669345593,How much will you be able to impress others with your knowledge of the biology and chemistry of cooking?,course impresses others,"slider: 1 = Not at all, 7 = A lot",Utility Value
+util1,-0.4635897435897416,How beneficial for your daily life is understanding the biology and chemistry of cooking?,course beneficial for daily life,"slider: 1=Not beneficial at all, 7 = Very beneficial",Utility Value
+util2,-0.33752009184844933,How useful in everyday life and leisure time is knowledge of biology and chemistry of cooking?,course useful in everyday life,"slider: 1=Not at all useful, 7 = Very useful",Utility Value
+util5,-0.4286295793758468,How important is it to you to get a good grade in this course for your academic career?,course important for academic career,"slider: 1=Not at all important, 7 = Very important",Utility Value
