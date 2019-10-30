@@ -5,8 +5,10 @@
  ## Lead Researcher - Shafee mohammed (shafeem@uci.edu)
   
  ## Reaserch Assistants - 
-  Hanwen 'Henry' Ye \n
-  Caleb Pitts \n
+  Hanwen 'Henry' Ye
+  
+  Caleb Pitts
+  
   Fanbo Shi
   
 We have a set of 1460 variables in total that looks at the students' prior performances, background/demographic details, click behavior on canvas learning platform, and a plethora of motivational constructs measured over the course of a few weeks in Summer 2018.
