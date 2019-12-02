@@ -1,5 +1,5 @@
 # DMOL (Dynamic Motivation during Online Learing)
-  This Repo contains the work we are doing to understand the ways in which dynamics of motivation on a weekly and daily basis alter learning trajectories of online learners in a Biological Sciences course at UCI. All the identifiers are removed for the purpose of analysis. If you would like to use the data for any or all purposes, please email me at shafeem@uci.edu.
+  This repo contains the work we are doing to understand the ways in which dynamics of motivation on a weekly and daily basis alter learning trajectories of online learners in a Biological Sciences course at UCI. All the identifiers are removed for the purpose of analysis. If you would like to use the data for any or all purposes, please email me at shafeem@uci.edu.
   
 # Our team:
  ## Lead Researcher - Shafee mohammed (shafeem@uci.edu)
