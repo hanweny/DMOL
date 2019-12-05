@@ -2,9 +2,9 @@
   This repo contains the work we are doing to understand the ways in which dynamics of motivation on a weekly and daily basis alter learning trajectories of online learners in a Biological Sciences course at UCI. All the identifiers are removed for the purpose of analysis. If you would like to discuss the work, and would like to be involved, please email me at shafeem@uci.edu.
   
 # Our team:
- ## Lead Researcher - Shafee Mohammed (shafeem@uci.edu)
+ #### Lead Researcher - Shafee Mohammed (shafeem@uci.edu)
   
- ## Research Assistants - 
+ #### Research Assistants - 
   Hanwen 'Henry' Ye
   
   Caleb Pitts
