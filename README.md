@@ -14,7 +14,7 @@
 We have a set of 1460 variables in total that look at the students' prior performances, background/demographic details, click behavior on canvas learning platform, and a plethora of motivational constructs measured over the course of a few weeks in Summer 2018.
 
 
-This work ties back in to the larger Project, Investigating Virtual Learning Environments(IVLE) conducted at UC Irvine's School of Education. IVLE aims to investigate the learning processes of online learning, the associated teacher and learner's experiences, and the ways in which these translate to the students' learning outcomes.
+This work ties back in to the larger project, Investigating Virtual Learning Environments(IVLE) conducted at UC Irvine's School of Education. IVLE aims to investigate the learning processes of online learning, the associated teacher and learner's experiences, and the ways in which these translate to the students' learning outcomes.
 
 Details of the larger project can be found [here](https://www.digitallearninglab.org/investigating-virtual-learning-environments/).
 For more information contact Mark Warschauer at markw@uci.edu.
