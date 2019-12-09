@@ -22,7 +22,11 @@ For more information contact Mark Warschauer at markw@uci.edu.
 #### Description of each folder:
 
 Clustering: uses LDA (Latent Dirichlet Allocation) to check possible activity-related response topics
+
 Data:
+
 Preprocessing:variable selections based on codebook review
+
 Quiz prediction: predicting wether a quiz score will be above average or below average. Used nonlinear PCA to reduce the dimensionality and then used random forrest to classify students and preiduct the end results. 
+
 Utils: 
