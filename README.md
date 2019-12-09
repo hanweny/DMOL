@@ -18,3 +18,7 @@ This work ties back in to the larger project, Investigating Virtual Learning Env
 
 Details of the larger project can be found [here](https://www.digitallearninglab.org/investigating-virtual-learning-environments/).
 For more information contact Mark Warschauer at markw@uci.edu.
+
+#### Description of each folder:
+
+Quiz prediction: predicting wether a quiz score will be above average or below average. Used nonlinear PCA to reduce the dimensionality and then used random forrest to classify students and preiduct the end results. 
