@@ -29,4 +29,4 @@ Preprocessing: doing pre analysis and see null precentage of null variables. Obs
 
 Quiz prediction: predicting wether a quiz score will be above average or below average. Used nonlinear PCA to reduce the dimensionality and then used random forrest to classify students and preiduct the end results. 
 
-Utils: 
+Utils: Some frequent used functions and variables. 
