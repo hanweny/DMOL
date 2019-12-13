@@ -25,8 +25,8 @@ Clustering: using LDA (Latent Dirichlet Allocation) to check possible activity-r
 
 Data: organzing data into more specific categories. 
 
-Preprocessing: doing pre analysis and see null precentage of null variables. Observing the change of mean value. choosing varibles and their value map into numeric. 
+Preprocessing: cleaning data, doing pre analysis, evaluating null precentage of all variables, Descriptive stats, onehotencoding of all categorical variables after picking appropriate varibles of interest. 
 
-Quiz prediction: predicting wether a quiz score will be above average or below average. Used nonlinear PCA to reduce the dimensionality and then used random forrest to classify students and preiduct the end results. 
+Quiz prediction: predicting wether a quiz score will be above average or below average. Used nonlinear PCA to reduce the dimensionality and then used random forrest to classify students and predict the end results. 
 
-Utils: Some frequent used functions and variables. 
+Utils: Some frequently used functions and variables. 
