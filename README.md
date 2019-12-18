@@ -18,3 +18,15 @@ This work ties back in to the larger project, Investigating Virtual Learning Env
 
 Details of the larger project can be found [here](https://www.digitallearninglab.org/investigating-virtual-learning-environments/).
 For more information contact Mark Warschauer at markw@uci.edu.
+
+#### Description of each folder:
+
+Clustering: using LDA (Latent Dirichlet Allocation) to check possible activity-related response topics
+
+Data: organzing data into more specific categories. 
+
+Preprocessing: cleaning data, doing pre analysis, evaluating null precentage of all variables, Descriptive stats, onehotencoding of all categorical variables after picking appropriate varibles of interest. 
+
+Quiz prediction: predicting wether a quiz score will be above average or below average. Used nonlinear PCA to reduce the dimensionality and then used random forrest to classify students and predict the end results. 
+
+Utils: Some frequently used functions and variables. 
