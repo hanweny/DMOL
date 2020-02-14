@@ -34,14 +34,17 @@ def nlp_preprocess(text, use_stemmer = False):
                 result.append(stemmer.stem(lemmatizer.lemmatize(token, pos='v')))
     return " ".join(result)
 
-def generate_wordcloud(text):
+def generate_wordcloud(text, fname = None):
     text_to_generate = text
     if type(text) == list:
         text_to_generate = " ".join([" ".join(i) for i in text]) if type(text[0]) == list else " ".join(text)
-    wordcloud = WordCloud(stopwords = STOPWORDS, background_color = 'white', collocations = False).generate(text_to_generate)
+    wordcloud = WordCloud(stopwords = STOPWORDS, background_color = 'white', color_func=lambda *args, **kwargs: '#000000',
+                          collocations = False).generate(text_to_generate)
     plt.figure(figsize = (13.8, 6))
     plt.imshow(wordcloud, interpolation = 'bilinear')
     plt.axis('off')
+    if fname is not None:
+        plt.savefig(fname, format='eps', dpi=1200)
     plt.show()
     
     
@@ -89,12 +92,13 @@ def separate_quant_fr(df, var_map):
                     new_var_map[key]["Quant"][construct].add(var)
                 else:
                     new_var_map[key]["FR"][construct].add(var)
+        new_var_map[key]["Quant"]["Demographics"] = set(['pre_begscl','pre_cong','pre_eng1st','pre_parents','pre_resid', "post_sex"])
     original_all_var =  [var for k in VAR_MAP for var_list in VAR_MAP[k].values() for var in var_list]
     reformated_all_var = [var for k in new_var_map for t in ["Quant", "FR"] for var_list in new_var_map[k][t].values() for var in var_list ]
     assert(set(original_all_var) == set(reformated_all_var))
     return new_var_map
 
-def convert_fr_col(df, num_uniq = 16, verbose = True):
+def convert_fr_col(df, num_uniq = 16, verbose = False):
     
     def map_column(df, v):
         mapped, col_type = False, "str"
@@ -113,8 +117,8 @@ def convert_fr_col(df, num_uniq = 16, verbose = True):
             print("Cannot find map for variable {}(type = {}), uniq vals are {}".format(v, col_type, uniq_val))
         return df
         
-    for v in ALL_NON_QUANT_VAR:
-        if df[ALL_NON_QUANT_VAR].nunique()[v] <= num_uniq:
+    for v in ALL_VAR:
+        if df[v].nunique() <= num_uniq:
             df = map_column(df, v)
         elif verbose:
             print("Var {} has more than {} unique vals".format(v, num_uniq))
@@ -172,8 +176,8 @@ def preprocess_df(df, verbose = False):
 
 df = pd.read_csv("../data/class_data.csv")
 VAR_MAP = load_object("../data/var_map.pkl")
-NEW_VAR_MAP = separate_quant_fr(df, VAR_MAP)
-
 ALL_VAR = [var for k in VAR_MAP for var_list in VAR_MAP[k].values() for var in var_list]
+NEW_VAR_MAP = separate_quant_fr(convert_fr_col(df), VAR_MAP)
+
 ALL_QUANT_VAR = [var for k in NEW_VAR_MAP for var_list in NEW_VAR_MAP[k]["Quant"].values() for var in var_list]
 ALL_NON_QUANT_VAR = [var for k in NEW_VAR_MAP for var_list in NEW_VAR_MAP[k]["FR"].values() for var in var_list]
